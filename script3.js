@@ -68,3 +68,6 @@ else if (x2 > x1 && x2 > x3){
 else if (x3 > x2 && x3 > x1){
     console.log('x3 is greater')
 }
+
+
+console.log("hello ")
