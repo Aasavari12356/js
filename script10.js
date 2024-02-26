@@ -78,3 +78,48 @@ console.log(digit.slice(3,5))
 // console.log(nums.slice(1,-3))
 // console.log(nums.slice(-3))
 // console.log(nums.slice(-1,-3))
+
+// reverse
+a=[11,22,33]
+a.reverse()
+console.log(a)
+
+// concat
+a=[1,2,3]
+b=[4,5,6]
+c=a.concat(b)
+console.log(c)
+
+// fill
+a1=[11,22,33,44,55,66]
+a2=a1.fill('-',1,3)
+console.log(a2)
+
+// flat
+country=[['mumbai','Banglore'],['seoul','Busan'],['Istanbul','Alnkara']]
+console.log(country[0][0])
+console.log(country[1][0])
+a1=country.flat()
+console.log(a1)
+
+// sort (alphabetically sort)
+country=['India','Korea','Turkey']
+country.sort()
+console.log(country)
+
+// join
+info=['Aasavari','Bedade',8108580033]
+e1=info.join('-')
+console.log(e1)
+console.log(typeof e1)
+
+names = ["ram","sham","satish","ram","ramesh"]
+
+// names.splice(startIndex,numberOfElementtoBeDelete)
+let e2 = names.splice(1,1)
+// console.log(names)
+// console.log(e2)
+console.log(names)
+console.log(e2)
+names.splice(2,1,"bharat")
+console.log(names)
