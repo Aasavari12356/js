@@ -20,7 +20,7 @@ q3=marks.filter(function(el,index,array){
 console.log(q3)
 
 // forEach
-city=['mumbai','pune','nashik']
+city=['mumbai','pu','nashik']
 q4= city.forEach(function(el,index,array){
     console.log('Welcome '+el)
 })
