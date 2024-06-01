@@ -1,5 +1,6 @@
 //loop
 
+
 //function => repatative operation avoid
 
 //loop => repetative operation perform based on condition
